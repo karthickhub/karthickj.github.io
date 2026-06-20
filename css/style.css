@@ -67,6 +67,9 @@ a:hover {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit: contain;
-    background: #f5f5f7;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
